@@ -1,0 +1,16 @@
+name = "harness-marketplace"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "harness-marketplace"
+database_id = "PLACEHOLDER"
+
+[[r2_buckets]]
+binding = "STORAGE"
+bucket_name = "harness-marketplace-assets"
+
+[vars]
+PLATFORM_URL = "https://harness-marketplace.pages.dev"
+STRIPE_PUBLISHABLE_KEY = "pk_test_placeholder"
